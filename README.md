@@ -21,4 +21,4 @@ TCGA-ACC, TCGA-BLCA, TCGA-BRCA, TCGA-CESC, TCGA-CHOL, TCGA-COAD, TCGA-DLBC, TCGA
 TCGA-KIRP, TCGA-LAML, TCGA-LGG, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC, TCGA-MESO, TCGA-OV, TCGA-PAAD, TCGA-PCPG, TCGA-PRAD, TCGA-READ,
 TCGA-SARC, TCGA-SKCM, TCGA-STAD, TCGA-TGCT, TCGA-THCA, TCGA-THYM, TCGA-UCEC, TCGA-UCS, TCGA-UVM
 
-![alt text]([https://raw.githubusercontent.com/yh154/TCGA-Kaplan-Meier-plotter/master/layout.png](https://raw.githubusercontent.com/yh154/TCGA-Kaplan-Meier-plotter/main/layout.png)
+![Layout Image](https://github.com/yh154/TCGA-Kaplan-Meier-plotter/blob/main/layout.png)
