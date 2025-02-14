@@ -80,7 +80,7 @@ server <- function(input, output) {
                        risk.table.col = "strata", # Change risk table color by groups
                        surv.median.line = "hv", # Specify median survival
                        palette = c("#F8766D", "#2E9FDF"),
-                       legend.title = paste0(cancer_type," ",gene_of_interest))
+                       legend.title = paste0(cancer_type,"\n",gene_of_interest))
 
     # Store the plot in the reactive value
     survival_plot(plot)
