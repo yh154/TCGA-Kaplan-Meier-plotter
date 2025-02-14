@@ -35,7 +35,7 @@ server <- function(input, output) {
     gene_of_interest <- input$gene_name
 
     # Load clinical data
-    clinic <- read.table("TCGA-GDC_all_clinical_cleaned_Feb2025.txt", sep = "\t", header = TRUE, quote = '', check.names = FALSE) %>%
+    clinic <- read.table("clinical_TCGA-GDC_cleaned.txt", sep = "\t", header = TRUE, quote = '', check.names = FALSE) %>%
       filter(`Project Identifier` == cancer_type) %>%
       select(`Patient ID`, `Overall Survival (Months)`, `Overall Survival Status`)
 
